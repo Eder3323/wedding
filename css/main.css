@@ -52,6 +52,11 @@ body {
   .my_title {
     font-size: 60px; }
 }
+.my_text{
+  font-family: "Dosis", sans-serif;
+  color: gray;
+  font-size: 20px;
+}
 
 .ww-home-page:before {
   content: "";
