@@ -47,7 +47,7 @@ body {
       width: auto; }
       @media (max-width: 480px) {
         .ww-home-page .ww-wedding-announcement img {
-          max-height: 350px;
+          max-height: 280px;
           width: auto; } }
     .ww-home-page .ww-wedding-announcement .ww-couple-name {
       font-size: 80px; }
