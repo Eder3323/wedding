@@ -1,5 +1,14 @@
 body {
-  font-family: "Dosis", sans-serif; }
+  font-family: "Dosis", sans-serif;
+}
+@font-face {
+  font-family: 'Avenue';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Avenue/Avenue du Vapoteur.ttf');
+}
+
+
 
 /* Home Page Style */
 .ww-home-page {
@@ -38,7 +47,7 @@ body {
       width: auto; }
       @media (max-width: 480px) {
         .ww-home-page .ww-wedding-announcement img {
-          max-height: 180px;
+          max-height: 250px;
           width: auto; } }
     .ww-home-page .ww-wedding-announcement .ww-couple-name {
       font-size: 80px; }
@@ -194,6 +203,9 @@ body {
 /* Common Style */
 .ww-title {
   font-family: "Great Vibes", cursive; }
+.ww_my_title_{
+  font-family: "Avenue", cursive;
+}
 
 .ww-section {
   padding: 100px 0; }
