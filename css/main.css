@@ -7,7 +7,12 @@ body {
   font-weight: 400;
   src: url('../fonts/Avenue/Avenue du Vapoteur.ttf');
 }
-
+@font-face {
+  font-family: 'Tinos-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Tinos/Tinos-Regular.ttf');
+}
 
 
 /* Home Page Style */
@@ -205,6 +210,16 @@ body {
   font-family: "Great Vibes", cursive; }
 .ww_my_title_{
   font-family: "Avenue", cursive;
+}
+.ww_my_wedding{
+  font-family: "Tinos-Regular", cursive;
+  font-size: 40px;
+}
+@media (max-width: 576px){
+  .ww_my_wedding{
+    font-family: "Tinos-Regular", cursive;
+    font-size: 30px;
+  }
 }
 
 .ww-section {
