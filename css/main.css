@@ -52,7 +52,7 @@ body {
       width: auto; }
       @media (max-width: 480px) {
         .ww-home-page .ww-wedding-announcement img {
-          max-height: 280px;
+          max-height: 320px;
           width: auto; } }
     .ww-home-page .ww-wedding-announcement .ww-couple-name {
       font-size: 80px; }
@@ -66,10 +66,27 @@ body {
   .my_title {
     font-size: 60px; }
 }
+
+/* Common Style */
 .my_text{
   font-family: "Dosis", sans-serif;
   color: gray;
   font-size: 20px;
+}
+.ww-title {
+  font-family: "Great Vibes", cursive; }
+.ww_my_title_{
+  font-family: "Avenue", cursive;
+}
+.ww_my_wedding{
+  font-family: "Tinos-Regular", cursive;
+  font-size: 40px;
+}
+@media (max-width: 576px){
+  .ww_my_wedding{
+    font-family: "Tinos-Regular", cursive;
+    font-size: 48px;
+  }
 }
 
 .ww-home-page:before {
@@ -205,22 +222,7 @@ body {
   text-decoration: none;
   cursor: pointer; }
 
-/* Common Style */
-.ww-title {
-  font-family: "Great Vibes", cursive; }
-.ww_my_title_{
-  font-family: "Avenue", cursive;
-}
-.ww_my_wedding{
-  font-family: "Tinos-Regular", cursive;
-  font-size: 40px;
-}
-@media (max-width: 576px){
-  .ww_my_wedding{
-    font-family: "Tinos-Regular", cursive;
-    font-size: 48px;
-  }
-}
+
 
 .ww-section {
   padding: 100px 0; }
