@@ -9,6 +9,9 @@ body {
   right: 20px;
   cursor: pointer;
 }
+#span_text_saved {
+  display: none; /* Hide the success message div initially */
+}
 @font-face {
   font-family: 'Avenue';
   font-style: normal;

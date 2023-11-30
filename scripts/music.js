@@ -1,9 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
-    // Initially mute the audio and set the mute icon
-    // muteAudio();
-    // setMuteIcon();
-    unmuteAudio();
-    setPlayIcon();
+    muteAudio();
+    setMuteIcon();
 });
 
 function toggleMute() {
@@ -36,3 +33,5 @@ function setPlayIcon() {
     var muteIcon = document.getElementById("mute-img");
     muteIcon.src = "/music/play.png";
 }
+
+

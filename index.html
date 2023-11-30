@@ -258,7 +258,7 @@
     <div class="row ww-rsvp-form">
       <div class="col-md-8">
         <div class="card-body">
-          <form action="https://formspree.io/example@email.com" method="POST">
+          <form method="POST">
             <div class="row">
               <div class="col md-6 pb-3">
                 <div class="form-group">
@@ -285,14 +285,19 @@
             <div class="row">
               <div class="col">
                 <div class="form-group">
-                  <label for="message-input">Nombres de quien asisten</label>
+                  <label for="message-input">Nombres de quienes asisten</label>
                   <textarea class="form-control" id="message-input" name="message" rows="4"></textarea>
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="col text-center">
-                <button class="btn btn-primary btn-submit" type="submit">Enviar</button>
+                <button class="btn btn-primary btn-submit" type="button" onclick="showSuccessMessage()">Enviar</button>
+              </div>
+            </div>
+            <div class="row mt-2" >
+              <div class="col text-center" >
+                <h4 id="span_text_saved"><strong><span class="badge badge-success">Guardado exitosamente !!</span></strong></h4>
               </div>
             </div>
           </form>
@@ -313,7 +318,7 @@
       <source src="/music/music.mp3" type="audio/mp3">
     </audio>
     <div id="mute-icon" onclick="toggleMute()">
-      <img id="mute-img" src="/music/play.png" alt="Mute/Unmute Icon" style="max-width: 55px;">
+      <img id="mute-img" src="/music/mute.svg" alt="Mute/Unmute Icon" style="max-width: 55px;">
     </div>
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="  crossorigin="anonymous"></script>
     <script src="scripts/bootstrap.bundle.min.js?ver=1.1.0"></script>
@@ -323,5 +328,6 @@
     <script src="scripts/simplyCountdown.min.js"></script>
     <script src="scripts/simply_count.js" ></script>
     <script src="scripts/music.js" ></script>
+    <script src="scripts/form_data.js" ></script>
   </body>
 </html>
