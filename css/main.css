@@ -1,5 +1,13 @@
 body {
   font-family: "Dosis", sans-serif;
+  position: relative;
+
+}
+#mute-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
 }
 @font-face {
   font-family: 'Avenue';
@@ -77,6 +85,9 @@ body {
   font-family: "Great Vibes", cursive; }
 .ww_my_title_{
   font-family: "Avenue", cursive;
+}
+.ww_my_date{
+  font-size: 45px;
 }
 .ww_my_wedding{
   font-family: "Tinos-Regular", cursive;
